@@ -1,6 +1,15 @@
+import Navbar from '@/components/shared/Navbar';
+import React from 'react';
 
-export default function Home() {
+const HomePage = () => {
   return (
-    <></>
+    <div>
+   
+<h1>hello this is me home page </h1>
+
+      
+    </div>
   );
-}
+};
+
+export default HomePage;
