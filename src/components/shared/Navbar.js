@@ -48,19 +48,23 @@ const Navbar = () => {
     <AppBar position="static">
       <Container maxWidth="xl">
         <Toolbar disableGutters>
-          <Image src={logo} width={100} height={100} alt="logo" />
+        <div className='flex items-center justify-between'>
+        <div className='flex  items-center'>
+        <Image src={logo} width={50} height={50} className='border rounded-xl h-14 w-12'  alt="logo" />
 
-          <Box>
-            {navItems.map((item) => (
-             <Link key={item} href={item.pathname}>
-        <Button className="text-white" >
-          {item.route}
-        </Button>
-             </Link>
-            ))}
-          </Box>
+<Box>
+  {navItems.map((item) => (
+   <Link key={item} href={item.pathname}>
+<Button className="text-white" >
+{item.route}
+</Button>
+   </Link>
+  ))}
+</Box>
+        </div>
 
-          <Box>
+        <div>
+        <Box>
             <IconButton>
               <FacebookIcon></FacebookIcon>
             </IconButton>
@@ -74,6 +78,8 @@ const Navbar = () => {
               <FacebookIcon></FacebookIcon>
             </IconButton>
           </Box>
+        </div>
+        </div>
 
         </Toolbar>
       </Container>
