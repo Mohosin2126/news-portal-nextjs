@@ -26,8 +26,9 @@ export default function getCurrentDate(){
     
       const day = days[currentDate.getDay()];
       const month = months[currentDate.getMonth()];
-      
-    return (
-        <h1>hello this is date</h1>
-    )
+      const date = currentDate.getDate();
+  const year = currentDate.getFullYear();
+
+  return `${day}, ${month} ${date}, ${year}`;
+    
 }
