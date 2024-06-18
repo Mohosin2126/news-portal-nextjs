@@ -1,4 +1,6 @@
 export default function getCurrentDate(){
+    const currentDate = new Date();
+
     const days = [
         "Sunday",
         "Monday",
