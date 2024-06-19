@@ -1,15 +1,15 @@
-import Navbar from '@/components/shared/Navbar';
-import React from 'react';
+import { Grid } from "@mui/material";
 
-const HomePage = () => {
+export default function Home(){
+
   return (
-    <div>
-   
-<h1>hello this is me home page </h1>
-
-      
-    </div>
-  );
-};
-
-export default HomePage;
+    <Grid container spacing={2}>
+    <Grid item xs={8}>
+    <h1>hello this is me lates news</h1>
+    </Grid>
+    <Grid item xs={4}>
+<h1>hello this is me sidebar</h1>
+    </Grid>
+  </Grid>
+  )
+}
