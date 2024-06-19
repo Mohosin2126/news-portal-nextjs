@@ -1,4 +1,5 @@
 import LatestNews from "@/components/latest-news";
+import SideBar from "@/components/sidebar";
 import { Grid } from "@mui/material";
 
 export default function Home(){
@@ -9,7 +10,7 @@ export default function Home(){
 <LatestNews></LatestNews>
     </Grid>
     <Grid item xs={4}>
-<h1>hello this is me sidebar</h1>
+<SideBar></SideBar>
     </Grid>
   </Grid>
   )
