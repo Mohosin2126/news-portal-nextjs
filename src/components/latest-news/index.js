@@ -9,6 +9,7 @@ import {
   } from "@mui/material";
 import Image from "next/image";
 import topNews from "../../assets/top-news.png"
+import topNews2 from "../../assets/top-news2.png"
 export default function LatestNews(){
 
     return (
@@ -48,12 +49,12 @@ export default function LatestNews(){
         </CardActionArea>
       </Card>
 
-      <Grid container rowSpacing={1} columnSpacing={{ xs: 1, sm: 2, md: 3 }}>
+      <Grid container className="mt-5" rowSpacing={1} columnSpacing={{ xs: 1, sm: 2, md: 3 }}>
   <Grid item xs={6}>
   <Card>
       <CardActionArea>
           <CardMedia>
-            <Image src={topNews} height={500} width={800} alt="top news"/>
+            <Image src={topNews2} height={500} width={800} alt="top news"/>
            
           </CardMedia>
           <CardContent>
@@ -89,7 +90,7 @@ export default function LatestNews(){
   <Card>
       <CardActionArea>
           <CardMedia>
-            <Image src={topNews} height={500} width={800} alt="top news"/>
+            <Image src={topNews2} height={500} width={800} alt="top news"/>
            
           </CardMedia>
           <CardContent>
@@ -125,7 +126,7 @@ export default function LatestNews(){
   <Card>
       <CardActionArea>
           <CardMedia>
-            <Image src={topNews} height={500} width={800} alt="top news"/>
+            <Image src={topNews2} height={500} width={800} alt="top news"/>
            
           </CardMedia>
           <CardContent>
@@ -161,7 +162,7 @@ export default function LatestNews(){
   <Card>
       <CardActionArea>
           <CardMedia>
-            <Image src={topNews} height={500} width={800} alt="top news"/>
+            <Image src={topNews2} height={500} width={800} alt="top news"/>
            
           </CardMedia>
           <CardContent>

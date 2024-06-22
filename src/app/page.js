@@ -6,12 +6,12 @@ export default function Home() {
 
   return (
     <Grid container spacing={2}>
-      <Grid item xs={8}>
-        <LatestNews></LatestNews>
-      </Grid>
-      <Grid item xs={4}>
-        <SideBar></SideBar>
-      </Grid>
+    <Grid item xs={8}>
+      <LatestNews />
     </Grid>
+    <Grid item xs={4}>
+      <SideBar />
+    </Grid>
+  </Grid>
   )
 }
