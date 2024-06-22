@@ -16,7 +16,7 @@ export default function LatestNews(){
       <Card>
       <CardActionArea>
           <CardMedia>
-            <Image src={topNews} width={800} height={500} alt="top news"/>
+            <Image src={topNews} height={500} width={800} alt="top news"/>
            
           </CardMedia>
           <CardContent>
@@ -30,17 +30,19 @@ export default function LatestNews(){
                       rounded
                       "
             >
-             hello this is the title
+          category
             </p>
             <Typography gutterBottom variant="h5" component="div">
-            this is the date
+            Bitcoin climbs as Elon Musk says tesla likely to accept it again 
             </Typography>
             <Typography gutterBottom className="my-3">
-           this is the short des
+         By Mohosin 
             </Typography>
 
             <Typography variant="body2" color="text.secondary">
-            options
+            It is a long established fact that a reader will be
+                    distracted by the readable content of a page when looking at
+                    its layout........
             </Typography>
           </CardContent>
         </CardActionArea>
